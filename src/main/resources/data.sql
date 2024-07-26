@@ -1,0 +1,3 @@
+insert into todo (id, label, description, creation_date, completed) values (gen_random_uuid(), 'Course', 'Acheter des patates', CURRENT_DATE, false);
+insert into todo (id, label, description, creation_date, completed) values (gen_random_uuid(), 'Sport', 'Go muscu', CURRENT_DATE, false);
+insert into todo (id, label, description, creation_date, completed) values (gen_random_uuid(), 'Sieste', 'Taper sa meilleure sieste', CURRENT_DATE, true);
